@@ -14,7 +14,7 @@ do
       shift
       ;;
     --vault_key)
-      VAULT_KEY="$3"
+      VAULT_KEY="$2"
       shift
       ;;
     --vault_token)
